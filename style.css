@@ -1,0 +1,119 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    margin-bottom: 70px;
+    color:blueviolet;
+    background-color: white;
+    font-family: 'Oswald';
+}
+
+html{
+    overflow-x:hidden;
+}
+
+figure img{
+    height: 30em;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    width: 100%;
+    background-color: blueviolet;
+    color: white;
+}
+nav title{
+    display: inline;
+    margin-left: 10px;
+}
+
+.navLinks{
+    margin-right: 10px;
+}
+
+.navLinks a{
+    text-decoration:none;
+    color: white;
+    margin-right: 10px;
+}
+
+h1{
+    text-align: center;
+}
+
+main p,h2{
+    padding: 0 70px 0 70px;
+}
+
+main ul{
+    padding: 0 90px 0 90px;
+}
+
+main li:last-child{
+    margin-bottom: 80px;
+}
+.imageContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imageContainer img{
+    margin-bottom: 40px;
+}
+
+.profilePic{
+    width:200px;
+    height: 200px;
+}
+
+.picAndBio, .columns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.columns h2{
+    display: flex;
+    flex-direction: row;
+}
+
+.profilePic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 1px solid black;
+    border-radius: 120px;
+    margin: 20px;
+}
+
+.borderProfile{
+    width: 55vw;
+    height: 700px;
+    margin: 40px 400px;
+    border: 3px solid blueviolet;
+}
+
+@media screen and (max-width:600px) {
+    figure img{
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+figure img{
+    height: 30em;
+}
+
+@media screen and (max-width:600px) {
+    figure img{
+        width: 100%;
+        height: auto;
+    }
+    
+}
